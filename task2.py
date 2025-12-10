@@ -1,8 +1,9 @@
-""""""
+numbers = list(range(1,11))
+print(numbers)
 
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
+first_five=numbers[:5]
+print(first_five)
 
-full_name = (first_name + " " + last_name)
+reversed_list=first_five[::-1]
 
-print(f"Hello , {full_name}! Welcome to Python programming!")
+print(reversed_list)
